@@ -1,0 +1,102 @@
+/* Styling for the body */
+body {
+    background: url(FORM.JPG);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Styling for the registration form container */
+.creatform {
+    width: 460px;
+    height: 1120px;
+    background: rgba(0, 0, 0, 0.7); /* Slightly increased opacity for a darker background */
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 65px;
+}
+
+/* Styling for the h2 heading */
+.creatform h2 {
+    text-align: center;
+}
+
+/* Styling for paragraph elements inside the form */
+.creatform p {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Styling for input fields in the form */
+.creatform input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #fff;
+}
+
+/* Styling for the submit button in the form */
+.creatform input[type="submit"] {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #3498db; /* Changed button background color to a blue shade */
+    color: #fff; /* Text color of the button */
+    padding: 10px 20px; /* Added padding for a larger button */
+    font-weight: bold; /* Bold text on the button */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.creatform input[type="submit"]:hover {
+    background: #2c82c9; /* Darker blue on hover */
+}
+
+/* Styling for the header section */
+.header {
+    width: 100%;
+    height: 65px;
+    background: #333;
+    box-shadow: 0px 6px 8px;
+}
+
+/* Styling for list items within the header */
+.header li {
+    margin-top: 18px;
+    list-style: none;
+    float: right;
+    width: 250px;
+}
+
+/* Styling for hyperlinks within the header */
+.header a {
+    text-decoration: none;
+    font-size: 23px;
+    width: 10px;
+    color: white;
+}
+/* Styling for textareas in the form */
+.creatform textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0px 0px 0px 1px ;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: none; /
+}
+
